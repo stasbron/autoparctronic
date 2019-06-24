@@ -1,0 +1,293 @@
+@media screen and (max-width: 350px){
+    .items{
+        display: flex;
+        flex-direction: column;
+    };
+
+  
+}
+
+@media screen and (max-width: 1200px){
+
+    .order1{
+        display: none;
+    }
+
+    .lists{
+        flex-direction: column;
+    }
+
+    .list2 h3{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .main_delivery{
+        display: none;
+    }
+
+    .char_about1{
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .char_about p{
+        margin-left: 0;
+    }
+
+    .char_about, .chars_about{
+        line-height: 20px;
+    }
+
+    .characteristics p{
+        margin-left: 0px;
+    }
+
+    .characteristics {
+        min-height: 50vh;
+    }
+
+    .work{
+        padding-bottom: 30px;
+        min-height: 350px;
+    }
+
+    .work hr{
+        margin-bottom: 50px;
+    }
+
+    .matrix p{
+        margin-left: 0;
+    }
+
+    .char_about2, .chars_about2{
+        margin-top: 30px;
+    }
+    
+}
+
+
+@media screen and (max-width: 1150px){
+    .chars_abouts{
+        display: none;
+    }
+
+  
+
+
+    .economy{
+        display: none;
+    }
+
+    .buy h2{
+        padding: 30px;
+    }
+    .work h2{
+        padding: 30px;
+    }
+
+    .order h2{
+        padding: 30px;
+    }
+
+    .order2 {
+        width: 100%;
+    }
+
+    .testimonials h2{
+        padding: 30px;
+    }
+
+    .carousel-cell{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .feedbackItself {
+        padding: 30px;
+    }
+    
+    .fromWhom{
+        padding: 30px;
+    }
+
+    .part2_description{
+        display: none;
+    };
+
+    .service_d{
+        flex-wrap: wrap;
+    }
+    .counter1{
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width: 1070px){
+
+
+    .part1_description{
+        float: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        
+    }
+    .descr{
+        width: 100%;
+        min-height: 350px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main_description{
+        text-transform: uppercase;
+        font-size: 25px;
+        line-height: 30px;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+
+
+    .secondary_description{
+        margin-top: 20px;
+        line-height: 20px;
+        float: none;
+        text-align: center;
+        letter-spacing: 1px;
+        margin-right: 0;
+    }
+
+    .counter{
+        float: none;
+        text-align: center;
+        margin-right: 0;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .counter :last-child{
+        margin-right: 0;
+    }
+
+    
+.button1{
+    width: 120px;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+.char_about1 p{
+    text-align: center;
+}
+
+.char_about1 hr{
+    display: none;
+}
+
+
+.char_about2 p{
+    text-align: center;
+}
+
+
+.chars_about1 p{
+
+    text-align: center;
+}
+
+.chars_about1 hr{
+    display: none;
+}
+
+
+.chars_about2 p{
+    margin-left: 0;
+    text-align: center;
+}
+
+  
+}
+
+
+
+@media screen and (max-width: 400px){
+
+    .part1_description{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        
+    }
+    .descr{
+        min-width: 320px;
+        min-height: 350px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .main_description{
+        text-transform: uppercase;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 1px;
+        float: none;
+        margin: 0;
+        display: block;
+        text-align: center;
+        
+    }
+
+
+    .secondary_description{
+        margin-top: 10px;
+        line-height: 15px;
+        float: none;
+        display: block;
+        margin: 0;
+        text-align: center;
+        letter-spacing: 1px;
+        font-size: 12px;
+    }
+
+    .counter{
+        float: none;
+        text-align: center;
+        margin-right: 0;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .counter :last-child{
+        margin-right: 0;
+    }
+
+    
+    .button1{
+        width: 120px;
+        text-align: center;
+        display: inline-block;
+        justify-content: center;
+        border-radius: 5px;
+        margin: 0 auto;
+        text-align: center;
+    }
+  
+}
